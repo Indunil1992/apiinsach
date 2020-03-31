@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "apiInsach.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 3,
+          "column": 56
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,7 +23,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInameindunilqasnsany",
+            "resourceName": "apigusEast1sachithraAPIname1111put",
             "config": {}
           }
         ]
@@ -66,6 +66,72 @@
           "stageDeploymentId": "mbeynr",
           "mode": 1
         }
+      },
+      "apigusEast1sachithraAPInameteststgingindget": {
+        "name": "apigusEast1sachithraAPInameteststgingindget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/indunil/qa": "g0wf0o",
+            "/indunil": "gorzsi",
+            "/indunil/qa/sns": "l6n32k",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging/ind",
+          "resourceName": "test/stging/ind",
+          "resourceId": "aw3y41",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test111",
+          "stageDeploymentId": "mbeynr",
+          "mode": 1
+        }
+      },
+      "apigusEast1sachithraAPIname1111put": {
+        "name": "apigusEast1sachithraAPIname1111put",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/indunil/qa": "g0wf0o",
+            "/indunil": "gorzsi",
+            "/indunil/qa/sns": "l6n32k",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/1111",
+          "resourceName": "1111",
+          "resourceId": "0rjsnt",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test808",
+          "stageDeploymentId": "lcjz83",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -94,7 +160,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585648521884
+    "lastSave": 1585650516188
   },
   "VCS_STATE": {
     "provider": "GitHub",
